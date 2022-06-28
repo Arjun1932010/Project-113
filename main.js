@@ -7,8 +7,15 @@ function setup(){
 }
 
 function draw(){
-    image(video,0,0,640,480);
-    circle(650,-10,50)
+    image(video,230,150,220,200);
+    circle(50,50,80);
+    fill("red");
+    circle(550,50,80);
+    fill("red");
+    circle(550,430,80);
+    fill("red");
+    circle(50,430,80)
+    
 }
 
 function take_snapshot(){
